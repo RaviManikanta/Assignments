@@ -1,7 +1,0 @@
-DEBUG	2021-08-02 15:28:10,857	0	com.yash.logdemos.LogDemoFile	[main]	Hello this is a debug message
-INFO	2021-08-02 15:28:10,858	1	com.yash.logdemos.LogDemoFile	[main]	Hello this is an info message
-DEBUG	2021-08-02 15:29:04,447	0	com.yash.logdemos.LogDemo	[main]	8
-INFO	2021-08-02 15:29:04,450	3	com.yash.logdemos.LogDemo	[main]	8
-WARN	2021-08-02 15:29:04,450	3	com.yash.logdemos.LogDemo	[main]	8
-ERROR	2021-08-02 15:29:04,450	3	com.yash.logdemos.LogDemo	[main]	8
-FATAL	2021-08-02 15:29:04,450	3	com.yash.logdemos.LogDemo	[main]	8
