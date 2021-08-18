@@ -1,0 +1,16 @@
+.a{
+    color: brown;
+    text-indent: 50px;
+    text-transform: uppercase;
+}
+a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+.b{
+    text-transform: capitalize;
+    white-space: nowrap;
+    
+}

@@ -1,0 +1,31 @@
+body{
+ /* background-image: url(../cssbasicAss/download.png);
+ 
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position:bottom;
+ background-attachment: fixed; */
+
+
+ background-image: url("../cssbasicAss/img3.jpg") left top no-repeat, url("../cssbasicAss/img1.jpg") right bottom no-repeat, url("../cssbasicAss/img2.jpg") left top repeat;
+ background-size: 50px, 130px, auto;
+ 
+
+}
+.a{
+    
+        background: url(../cssbasicAss/download.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      
+    
+}
+.b{
+  
+      
+ 
+        background: url(../cssbasicAss/img2.jpg);
+        background-size: contain;
+        background-repeat: repeat-x;
+      
+}

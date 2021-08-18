@@ -1,0 +1,40 @@
+table{
+    border-color: limegreen;
+    border-style:double;
+    
+    border-spacing: unset;
+    margin: 10px;
+width: 50%;
+ align-content: center;
+    padding-left: 50px;
+   vertical-align:50px ;
+   text-align: right;
+   border-width: thick;
+}
+th,td{
+    border-color: yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.c{
+    color: lightcoral;
+}
+body{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+}
+tr:nth-child(even){
+background-color: lightgreen;
+}
+.d{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-indent: 50px;
+    white-space: nowrap;
+    color: rgb(244, 247, 70);
+    text-shadow: red 0 -2px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
