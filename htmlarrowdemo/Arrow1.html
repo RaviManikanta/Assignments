@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+        My Arrow function page
+    </title>
+    </head>
+    <body>
+        <script>
+            //older style of writing functions
+            var x = function(){
+                return "Hello Welcome to anonymous function"
+            }
+            console.log(x());
+
+            //new style by implementing arrow functions
+            var a=()=>"Hello Welcome to arrow functions";//arrow function without parameter
+            console.log(a());
+
+            var demo1 = x => x*x;//function with 1 parameter
+            console.log(demo1(10));
+
+            var demo2 = (x,y)=> x+y;//function with 2 parameters
+            console.log(demo2(12,5));
+
+            var demo3 =(a,b)=>{//function with expression
+                a=a+2;
+                b=b+3;
+                return a+b;
+            }
+            console.log(demo3(2,2));
+
+            //default arguments
+            var demo4 = (a=3,b=4) => a+b;
+            console.log(demo4());
+
+            var cars =["hundai","maruthi","Kia"]
+            for (const x of cars) 
+                console.log(x);
+                
+            var emp ={id:1,name:"allen",age :24}
+            for(let y in emp)
+            console.log(emp[y]);
+
+
+        </script>
+    </body>
+</html>

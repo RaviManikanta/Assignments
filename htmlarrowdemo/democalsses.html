@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+            demo on classes
+        </title>
+    </head>
+    <body>
+        <script>
+            class A{
+                    constructor(){
+                        this.name="Ravi";
+                    }
+                    printName(){
+                        console.log(this.name);
+                    }
+                 
+            }
+            class B extends A{
+                constructor(){
+                    super();
+                    this.age=24;
+                }
+                printAge(){
+                    console.log(this.age);
+                }
+            }
+            const a = new B();
+            a.printName();
+            a.printAge();
+            
+        </script>
+    </body>
+</html>
